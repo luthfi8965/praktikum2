@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            width: 100%;
+            height: 20px;
+            color: rgb(7, 85, 255);
+
+        }
+        body{
+            background-color: rgb(196, 227, 249);
+        }
+        .m{
+            background-color: chartreuse;
+        }
+        .cl{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Form Mahasiswa</h1></br>
+<form action="post.php" method="post">
+<label>Nama:</label>
+<input type="text" name="nama"></br>
+<label>Jenis_kelamin :</label>
+<input type="radio" name="jenis_kelamin" value="laki-laki"><label>laki-laki</label> <input type="radio" value="perempuan"><label>perempuan</label></br>
+<!--  -->
+<label>Hobi :</label>
+<input type="checkbox" name="hobi" value="berenang"><label>berenang</label><input type="checkbox" value="bola"><label>bola</label><input type="checkbox" value="memanah"><label>memanah</label></br>
+<label>Umur:</label>
+<input type="number" name="umur"></br>
+<label>Tanggal Lahir:</label>
+<input type="date" name="tanggal"></br>
+<label>password:</label>
+<input type="password" name="password"></br>
+
+<label>Prodi:</label>
+<section>
+<option value="Teknik Informatika">Teknik Informatika </option>
+<option value="Sistem Informasi">Sistem Informasi</option>
+<option value="Bisnis Digital">Bisnis Digital</option>
+</section>
+<input type="button" name="button"></br>
+<input class="m" type="submit" name="button"></br>
+<input class="cl" type="reset" name="button"></br>
+</form>
+
+    
+</body>
+</html>
